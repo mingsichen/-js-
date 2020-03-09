@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算器</title>
+</head>
+<style>
+    *,
+    body {
+        margin: 0;
+        padding: 0;
+
+    }
+    ul,ol,li{
+       list-style: none;
+    }
+
+    .container {
+        width: 400px;
+        height: 700px;
+        border-radius: 20px;
+        background-color: black;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .poins {
+        height: 30px;
+        line-height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+
+    .poins span {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+
+    .poins .poins0 {
+        background-color: #F95961;
+    }
+
+    .poins .poins1 {
+        background-color: #FFB645;
+        margin: 0 10px;
+    }
+
+    .poins .poins2 {
+        background-color: #04C924;
+    }
+
+    .input {
+        height: 200px;
+        margin: 20px 20px;
+        border-bottom: 1px solid #45424C;
+    }
+    .count ul li{
+        color: #cfcdd6;
+    }
+    .count ul{
+        width: 100%;
+        text-align: center;
+    }
+    .count >ul >ul{
+        width: 100%;
+        margin-bottom: 30px;
+       display: flex;
+       justify-content: space-around;
+    }
+    .count >ul >ul>li{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+       
+    }
+    .count .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #4B4C51;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="poins">
+            <span class="poins0"></span>
+            <span class="poins1"></span>
+            <span class="poins2"></span>
+        </div>
+
+        <div class="input">
+            <input type="text">
+            <input type="text">
+        </div>
+
+        <div class="count">
+            <ul class="ulTal">
+                <ul class="ulItem0">
+                    <li class="circle">AC</li>
+                    <li class="circle">+/-</li>
+                    <li class="circle">%</li>
+                    <li class="circle">-</li>
+                </ul>
+                <ul class="ulItem1">
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li class="circle">%</li>
+                </ul>
+                <ul class="ulItem2">
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li class="circle">-</li>
+                </ul>
+                <ul class="ulItem3">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li class="circle">+</li>
+                </ul>
+                <ul class="ulItem4">
+                    <li>0</li>
+                    <li>.</li>
+                    <li>=</li>
+                </ul>
+
+            </ul>
+        </div>
+
+
+    </div>
+
+
+</body>
+<script>
+</script>
+
+</html>
